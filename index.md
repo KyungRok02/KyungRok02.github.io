@@ -13,5 +13,8 @@ title: false
 ## [Projects](/projects/)
 진행했던 프로젝트들을 소개합니다.
 
+## [Activities](/activities/)
+대외활동과 경험을 소개합니다.
+
 ## [Contact](/contact/)
 연락 가능한 방법을 안내합니다.

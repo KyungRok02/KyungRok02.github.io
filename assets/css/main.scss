@@ -16,3 +16,17 @@ search: false
 .page__content h2 a:hover {
   text-decoration: underline;
 }
+.page__footer {
+  margin-top: 1em;      // 원래 3em → 위쪽 여백 줄임
+}
+
+.page__footer footer {
+  margin-top: 0.5em;    // 원래 2em
+  padding: 0.5em 1em;   // 원래 0 1em 2em → 아래쪽 여백도 줄임
+}
+
+.site-footer-text {
+  margin: 0;             // 문단 기본 여백 제거
+  font-size: 0.8em;      // 글자 크기 살짝 축소
+  color: #767676;
+}

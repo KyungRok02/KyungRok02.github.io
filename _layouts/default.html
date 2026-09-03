@@ -24,7 +24,13 @@
         {% include_cached search/search_form.html locale=locale %}
       </div>
     {% endif %}
-
+  
+  <div id="footer" class="page__footer">
+    <footer>
+      <p><a href="{{ '/' | relative_url }}">Kyungrok | Chemical Process Engineering & Designing</a></p>
+      <p>Soongsil University - Chemical Engineering</p>
+    </footer>
+  </div>
 
     {% include scripts.html locale=locale %}
   </body>

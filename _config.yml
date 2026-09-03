@@ -114,14 +114,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "박경록"
+  name: >-
+  KyungRok Park<br><span style="font-size:0.75em; color:#999; font-weight:normal;">박경록</span>
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Chemical Process Engineering & Deging"
+  bio              : "Chemical Process Engineering & Designing"
   location         : "Soongsil University"
-  email            : "kyngrock1230@gmail.com"
+  email            : #"kyngrock1230@gmail.com"
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
-    - label: "Email"
+    - label: "kyngrock1230@gmail.com"
       icon: "fas fa-fw fa-square-envelope"
       url: "mailto:kyngrock1230@gmail.com"
     - label: "Website"
@@ -133,7 +134,7 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-square-facebook"
       # url: "https://facebook.com/"
-    - label: "GitHub"
+    - label: "github.com/KyungRok02"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/KyungRok02"
     - label: "Instagram"

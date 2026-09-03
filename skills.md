@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Skills"
 permalink: /skills/
 layout: single
 ---

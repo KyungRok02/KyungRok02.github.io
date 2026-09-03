@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name: >-
-  KyungRok Park<br><span style="font-size:0.75em; color:#999; font-weight:normal;">박경록</span>
+    KyungRok Park<br><span style="font-size:0.75em; color:#999; font-weight:normal;">박경록</span>
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Chemical Process Engineering & Designing"
   location         : "Soongsil University"

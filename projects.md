@@ -1,5 +1,5 @@
 ---
 title: "Projects"
-permalink: /projetcs/
+permalink: /projects/
 layout: single
 ---

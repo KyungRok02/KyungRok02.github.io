@@ -4,8 +4,8 @@ author_profile: true
 title: false
 ---
 
-## [About](/about/)
-간단한 자기소개와 학력을 소개합니다.
+## About
+간단한 자기소개와 학력을 소개합니다.  (여기에 학력/약력 자유롭게 작성)
 
 ## [Skills](/skills/)
 보유하고 있는 기술과 툴을 소개합니다.

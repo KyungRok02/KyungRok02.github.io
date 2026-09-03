@@ -1,5 +1,5 @@
 ---
 title: "About"
-permalink: /about/
+permalink: /skills/
 layout: single
 ---

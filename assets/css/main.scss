@@ -42,3 +42,11 @@ html {
   margin-bottom: 0.3em;
   font-weight: normal;
 }
+
+.sidebar .author__name {
+  font-size: 1.3em;   // 숫자를 키울수록 더 커짐 (1.3 → 1.5 등 자유롭게 조절)
+}
+
+.greedy-nav a {
+  font-size: 0.85em;   // 숫자를 줄일수록 더 작아짐
+}

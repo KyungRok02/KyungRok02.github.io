@@ -34,3 +34,12 @@ search: false
 html {
   font-size: 17px;   // 기본값 17px의 절반
 }
+
+.section-subtitle {
+  font-size: 0.7em;
+  color: #767676;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.3em;
+  font-weight: normal;
+}

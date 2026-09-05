@@ -21,3 +21,7 @@ B.S. Student, Department of Chemical Engineering
 **Process Optimiazation**
 <br>
 <span class="section-subtitle">공정 최적화</span>
+
+**Machine Learning & AI Utilization**
+<br>
+<span class="section-subtitle">머신러닝 & AI 활용</span>

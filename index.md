@@ -14,6 +14,6 @@ B.S. Student, Department of Chemical Engineering
 
 ## Research Interests
 
-**Chemical Process Engineering & Optimization**
+**Chemical Process Engineering Desinging**
 <br>
-<span class="section-subtitle">화학공정 설계 & 최적화</span>
+<span class="section-subtitle">화학공정 설계</span>

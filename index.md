@@ -17,3 +17,7 @@ B.S. Student, Department of Chemical Engineering
 **Chemical Process Engineering Desinging**
 <br>
 <span class="section-subtitle">화학공정 설계</span>
+
+**Process Optimiazation**
+<br>
+<span class="section-subtitle">공정 최적화</span>

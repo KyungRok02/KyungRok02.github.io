@@ -18,7 +18,7 @@ B.S. Student, Department of Chemical Engineering
 <br>
 <span class="section-subtitle">화학공정 설계</span>
 
-**Process data analysis & Optimiazation**
+**Process Data Analysis & Optimiazation**
 <br>
 <span class="section-subtitle">공정 데이터 분석 & 최적화</span>
 

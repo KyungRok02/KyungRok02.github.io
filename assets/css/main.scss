@@ -54,3 +54,45 @@ html {
 .header-link {
   display: none !important;
 }
+
+.contact-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-subtitle {
+  color: #767676;
+  margin-bottom: 0.3em;
+}
+
+.contact-subtitle-kr {
+  color: #999;
+  font-size: 0.9em;
+  margin-bottom: 2em;
+}
+
+.contact-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 2em;
+  margin: 0 auto 2em;
+}
+
+.contact-email a {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #5352ed;
+  text-decoration: none;
+}
+
+.contact-divider {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 2em 0;
+}
+
+.contact-elsewhere a {
+  color: #5352ed;
+  text-decoration: none;
+}

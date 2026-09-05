@@ -3,11 +3,10 @@ title: "Contact"
 permalink: /contact/
 layout: single
 author_profile: false
+classes: contact-page
 ---
 
 <div class="contact-wrap">
-
-# Contact
 
 <p class="contact-subtitle">
 If you have any questions about my projects or research topics,<br>

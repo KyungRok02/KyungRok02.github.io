@@ -18,9 +18,9 @@ B.S. Student, Department of Chemical Engineering
 <br>
 <span class="section-subtitle">화학공정 설계</span>
 
-**Process Optimiazation**
+**Process data analysis & Optimiazation**
 <br>
-<span class="section-subtitle">공정 최적화</span>
+<span class="section-subtitle">공정 데이터 분석 & 최적화</span>
 
 **Machine Learning & AI Utilization**
 <br>

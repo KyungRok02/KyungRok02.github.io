@@ -1,0 +1,379 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+.page__content h2 a,
+.page__content h2 a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.page__content h2 a:hover {
+  text-decoration: underline;
+}
+.page__footer {
+  margin-top: 1em;      // 원래 3em → 위쪽 여백 줄임
+}
+
+.page__footer footer {
+  margin-top: 0.5em;    // 원래 2em
+  padding: 0.5em 1em;   // 원래 0 1em 2em → 아래쪽 여백도 줄임
+}
+
+.site-footer-text {
+  margin: 0;             // 문단 기본 여백 제거
+  font-size: 0.8em;      // 글자 크기 살짝 축소
+  color: #767676;
+}
+
+html {
+  font-size: 17px;   // 기본값 17px의 절반
+}
+
+.page__content .section-subtitle {
+  font-size: 0.7em;
+  color: #767676;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.3em;
+  font-weight: normal;
+}
+
+.sidebar .author__name {
+  font-size: 1.45em;   // 숫자를 키울수록 더 커짐 (1.3 → 1.5 등 자유롭게 조절)
+}
+
+.greedy-nav a {
+  font-size: 0.85em;   // 숫자를 줄일수록 더 작아짐
+}
+
+.header-link {
+  display: none !important;
+}
+
+.contact-page .page__title {
+  text-align: center;
+  width: 100%;
+}
+
+.contact-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-subtitle {
+  color: #767676;
+  margin-bottom: 1.2em;
+}
+
+.contact-subtitle-kr {
+  color: #999;
+  font-size: 0.9em;
+  margin-bottom: 5em;   // 1em → 2.5em으로 늘림 (박스와의 간격)
+}
+
+.contact-card {
+  max-width: 340px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 1.1em;
+  margin: 0 auto 2em;
+  background-color: #fff;
+}
+
+.contact-email a {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #4fc3f7;   // 연한 하늘색
+  text-decoration: none;
+}
+
+.contact-divider {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 3em auto;   // 2em → 3em
+  max-width: 600px;
+}
+
+.contact-elsewhere a {
+  color: #4fc3f7;   // 연한 하늘색
+  text-decoration: none;
+}
+
+.contact-page header {
+  margin-top: 2em;
+}
+
+.contact-page .page__title {
+  margin-bottom: 2em;   // 이 값을 늘리면 제목과 아래 문단 사이 간격이 커짐
+}
+
+
+
+.activities-page .page__title {
+  text-align: center;
+}
+
+.activity-wrap {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.activity-lead {
+  text-align: center;
+  color: #767676;
+  margin-bottom: 2em;
+}
+
+.activity-label {
+  font-size: 0.7em;
+  color: #767676;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: normal;
+  margin: 1.5em 0 1em;
+}
+
+.activity-item {
+  padding: 0.5em 0;
+}
+
+.activity-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1em;
+}
+
+.activity-title {
+  flex: 1 1 auto;
+}
+
+.activity-date {
+  flex: 0 0 auto;
+  color: #999;
+  font-size: 0.85em;
+  white-space: nowrap;
+}
+
+.activity-desc {
+  margin-top: 0.5em;
+  color: #444;
+}
+
+.activity-divider {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 1.5em 0;
+}
+
+.activities-page header {
+  margin-top: 2em;
+}
+
+.activity-lead {
+  text-align: center;
+  color: #767676;
+  margin: 1em 0 2.5em;
+}
+
+.activity-label {
+  font-size: 0.7em;
+  color: #767676;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: normal;
+  margin: 2em 0 1.2em;
+}
+
+.activity-item {
+  padding: 0.8em 0;
+}
+
+.activity-divider {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 2em 0;
+}
+
+/* ==========================================================================
+   Projects 페이지
+   ========================================================================== */
+
+.projects-page .page__title {
+  text-align: center;
+}
+
+.projects-page header {
+  margin-top: 2em;
+}
+
+.project-wrap {
+  max-width: 875px;
+  margin: 0 auto;
+}
+
+.project-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin-bottom: 2em;
+}
+
+.project-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-bottom: 0.8em;
+}
+
+.project-tags {
+  color: #999;
+  font-size: 0.8em;
+}
+
+.project-badge {
+  border: 1px solid #4fc3f7;
+  color: #4fc3f7;
+  font-size: 0.75em;
+  padding: 0.2em 0.7em;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 1.15em;
+  margin-bottom: 0.2em;
+}
+
+.project-desc {
+  color: #444;
+  margin: 1em 0 1.2em;
+  line-height: 1.8;
+}
+
+.project-table {
+  border-top: 1px solid #eee;
+  margin-bottom: 1.2em;
+}
+
+.project-row {
+  display: flex;
+  padding: 0.7em 0;
+  border-bottom: 1px solid #eee;
+  gap: 1em;
+}
+
+.project-label {
+  flex: 0 0 100px;
+  color: #999;
+  font-size: 0.85em;
+}
+
+.project-value {
+  flex: 1 1 auto;
+  font-size: 0.92em;
+}
+
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.project-skill-tag {
+  background: #e6f7fd;
+  color: #29b6f6;
+  font-size: 0.8em;
+  padding: 0.3em 0.8em;
+  border-radius: 4px;
+}
+
+body.projects-page .page {
+  float: none;
+  width: 100% !important;
+  padding-inline-end: 0 !important;
+}
+
+body.projects-page #main {
+  max-width: 1100px;
+}
+
+.skills-page .page__title {
+  text-align: center;
+}
+
+.skills-page header {
+  margin-top: 2em;
+}
+
+.skill-wrap {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.skill-item {
+  padding: 1em 0;
+}
+
+.skill-label {
+  font-size: 0.8em;
+  color: #999;
+  margin-bottom: 0.3em;
+}
+
+.skill-title {
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 0.2em;
+}
+
+.skill-desc {
+  color: #444;
+  margin: 1em 0 1.2em;
+  line-height: 1.8;
+}
+
+.skill-note {
+  border: 1px dashed #ddd;
+  border-radius: 6px;
+  padding: 1em;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.85em;
+  margin-top: 1.2em;
+}
+
+.skill-divider {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 3em 0;
+}
+
+.skill-image {
+  display: block;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  margin-top: 1.2em;
+}
+
+.skill-image + .skill-image {
+  margin-top: 0.8em;
+}
+
+.sidebar {
+  opacity: 1 !important;
+}
+
+.author__avatar img {
+  max-width: 135px;
+}
